@@ -1,4 +1,4 @@
-export function shipping() {
+export function shipping(order) {
     if (order.basic < 100) {
         return 20.0;
     } else if (order.basic < 200) {
